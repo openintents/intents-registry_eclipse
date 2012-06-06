@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Intents Registry Test
+Bundle-SymbolicName: org.openintents.intentsregistry.test
+Bundle-Version: 1.0.0
+Bundle-Vendor: OpenIntents
+Require-Bundle: org.openintents.intentsregistry;bundle-version="1.0.0",
+ org.junit;bundle-version="4.8.2"

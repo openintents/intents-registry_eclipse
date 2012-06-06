@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.openintents.intentsregistry; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.openintents.intentsregistry.IntentsregistryActivator
+Bundle-Vendor: %Bundle-Vendor
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.7.100",
+ org.eclipse.core.expressions,
+ org.eclipse.jdt.core;bundle-version="3.7.1",
+ org.eclipse.ui,
+ org.eclipse.ui.forms;bundle-version="3.5.100"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: org.openintents.intentsregistry.handlers,
+ org.openintents.intentsregistry.views
+Import-Package: org.eclipse.jface.text,
+ org.eclipse.ui.forms.editor,
+ org.eclipse.ui.internal.ide,
+ org.eclipse.ui.texteditor

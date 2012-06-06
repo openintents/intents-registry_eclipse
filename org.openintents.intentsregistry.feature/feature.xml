@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.openintents.intentsregistry"
+      label="Intentsregistry Feature"
+      version="1.0.0"
+      provider-name="OpenIntents"
+      plugin="org.openintents.intentsregistry"
+      os="win32">
+
+   <description url="http://www.example.com/description">
+      The Intents Registry Eclipse Plugin, will allow the user or developer to insert intents including Actions as a code block from the list, browse the web pages, use code completing feature in Eclipse for intents, and more.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <url>
+      <update label="Intents Registry Eclipse Plugin" url="http://openintents.github.com/intents-registry_eclipse/org.openintents.intentsregistry.update/"/>
+   </url>
+
+   <plugin
+         id="org.openintents.intentsregistry"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
