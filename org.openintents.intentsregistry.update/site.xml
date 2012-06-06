@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description url="http://openintents.github.com/intents-registry_eclipse/">
-      
+   <description name="Intents Registry Eclipse Plug-in" url="http://openintents.github.com/intents-registry_eclipse/org.openintents.intentsregistry.update/">
+      The Intents Registry Eclipse Plug-in allows developers to browse an online intents registry provided by OpenIntents and insert a code block corresponding to the selected intents directly into their Eclipse project. At the heart of this software is an intents registry. This registry, much like a typical XML data source, defines all of the unique intents both actions and titles used throughout the plug-in. Using combinations of actions and titles we can define intents.
    </description>
-   <feature url="features/org.openintents.intentsregistry_0.5.0.jar" id="org.openintents.intentsregistry" version="0.5.0" os="win32"/>
+   <feature url="features/org.openintents.intentsregistry_1.0.0.jar" id="org.openintents.intentsregistry" version="1.0.0" os="win32"/>
 </site>
