@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <description url="http://openintents.github.com/intents-registry_eclipse/">
+      
    </description>
    <feature url="features/org.openintents.intentsregistry_0.5.0.jar" id="org.openintents.intentsregistry" version="0.5.0" os="win32"/>
 </site>
